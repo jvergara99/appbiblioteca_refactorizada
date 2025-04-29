@@ -1,18 +1,15 @@
-## Getting Started
+## Práctica 2 de Refactorización en Java
+## Sistema de Gestión de biblioteca
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+El propósito es aplicar técnicas de refactorización a un código Java con problemas de diseño, implementando los principios de la programación orientada a objetos para mejorar su calidad, mantenibilidad y extensibilidad.
 
-## Folder Structure
+El código que se proporciona corresponde a un sistema básico para la gestión de una biblioteca: registrar libros, usuarios y préstamos. La aplicación funciona, pero presenta varios problemas de diseño como:
 
-The workspace contains two folders by default, where:
+- Violación del principio de responsabilidad única
+- Alto acoplamiento entre clases
+- Código duplicado
+- Métodos excesivamente largos
+- Uso inadecuado de la herencia
+- Falta de encapsulamiento
+- Nomenclatura inconsistente
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
